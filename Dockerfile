@@ -1,7 +1,7 @@
 FROM phusion/baseimage:0.9.18
 
 RUN apt-get -y update # skip cache
-RUN apt-get -y install wget git
+RUN apt-get -y install wget unzip
 
 RUN mkdir -p /apps/vault /etc/service/vault
 
